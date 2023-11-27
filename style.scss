@@ -1,0 +1,271 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  justify-content: center;
+  margin: 5%;
+}
+
+p {
+  font-size: 25px;
+  color: #ffffff;
+  max-width: 200px;
+  width: 100%;
+  
+}
+
+v{
+  font-size: 50px;
+}
+
+t{
+  color: black;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 90px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 100px auto;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+
+main section, h1, h2, h3, h4, h5, h6 {
+  background-color: rgb(255, 253, 253);
+  color: rgb(68, 68, 68);
+margin-left: 25px;
+margin-left: 25px;
+font-size: 20px;
+}
+
+nav li {
+  display: flex;
+  margin-right: 15px;
+  padding-top: 20px;
+  font-size: 19px; /* Ajuste o valor conforme necessário */
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+
+
+
+ul {
+  color: #000000;
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  padding: 16px;
+  align-items: center;
+  margin: 80px auto;
+  margin: 100px;
+  font-size: 20px; /* Ajuste o valor conforme necessário */
+  text-decoration: none; /* Remover sublinhado padrão de links */
+}
+
+
+header img {
+  width: 100%;
+  width: auto;
+  height: 150px;
+  height: -10%;
+  margin: 80PX;
+  margin-top: -120%;
+}
+
+footer {
+  background-color: #333333;
+  padding: -100%;
+  text-align: center;
+  display: flex;
+  color: #ffffff;
+  width: 100%;
+  font-size: 1000%;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+footer a {
+  margin: 0 auto;
+}
+
+header footer {
+  background-color: #0400fc;
+  color: #ffffff;
+  list-style-type: none;
+  justify-content: right;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: auto;
+  width: auto;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer .container {
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+  box-sizing: border-box;
+  animation: moveUpDown 10s infinite alternate;
+}
+
+/* Slide */
+.slider {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+ }
+ 
+ .slides {
+  width: 400%;
+  height: 400px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+ }
+ 
+ .slides input  {
+  display: none;
+  right: 50px;
+  flex-direction: column;
+ }
+
+ .slides input, .img-mobile{
+  display: none;
+  right: 50px;
+  flex-direction: column;
+ }
+ 
+ .slide{
+  width: 25%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  transition: 10s;
+ }
+ 
+ .slide img {
+  width: 150%;
+  width: 800px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 7px rgba(0,0,0,.6); 
+  box-sizing: border-box;
+ }
+ 
+ .manual-navigation {
+  position: absolute;
+  width: 100%;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .manual-navigation .manual-btn {
+  border: 1px solid #ffffff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+ }
+ 
+ .manual-btn:not(:last-child) {
+  margin-right: 20px;
+ }
+ .navigation-auto:not(:last-child) {
+  margin-right: 20px;
+ }
+ 
+ .manual-navigation .manual-btn:hover {
+  background-color: rgb(255, 255, 255);
+ }
+ 
+ #radio1:checked ~ .first {
+  margin-left: 0%;
+ }
+ 
+ #radio2:checked ~ .first {
+  margin-left: -25%;
+ }
+ 
+ .navigation-auto div{
+  border: 2px solid rgb(255, 255, 255), 0, 0;
+  padding: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  overflow: hidden;
+ }
+ 
+ .navigation-auto{
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .navigation-auto div:not(:last-child){
+  margin-right: 40px;
+ }
+ 
+ #radio1:checked ~ .navigation-auto .auto-btn1{
+ background-color: #ffffff;
+ }
+ #radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #ffffff;
+  }
+
+
+/* Box */
+.box {
+  width:auto;
+  max-width: 460px;
+  height: 100%;
+  padding: 80px; /* Adicionado espaçamento interno para melhor legibilidade */
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 450px;
+  margin-right: 5px;
+  justify-content: space-around;
+  object-fit: cover; /* Garante que as imagens mantenham a proporção e cobrem completamente a área */
+}
+
+
+.box img {
+  width: 100%;
+ margin: 25px;
+  max-height: 500px; /* Altura máxima para as imagens */
+  object-fit: cover; /* Garante que as imagens mantenham a proporção e cobrem completamente a área */
+  margin-bottom: 15px;
+}
+ 
