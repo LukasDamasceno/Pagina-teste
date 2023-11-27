@@ -80,11 +80,12 @@ ul {
 
 header img {
   width: 100%;
-  width: auto;
   height: 150px;
   height: -10%;
   margin: 80PX;
   margin-top: -120%;
+  width: 20vw;
+  height: 20vh;
 }
 
 footer {
@@ -94,11 +95,12 @@ footer {
   display: flex;
   color: #ffffff;
   width: 100%;
-  font-size: 1000%;
+
   margin: 0 auto;
   justify-content: center;
-  position: relative;
   align-items: center;
+  width: 99,5vw;
+  height: -100vh;
 }
 
 footer a {
@@ -149,6 +151,7 @@ footer .container {
   position: relative;
   margin: auto;
   display: flex;
+  background-attachment: fixed;
   overflow: hidden;
  }
  
@@ -161,6 +164,7 @@ footer .container {
  .slides input, .img-mobile{
   display: none;
   right: 50px;
+  background-attachment: fixed;
   flex-direction: column;
  }
  
@@ -263,6 +267,7 @@ footer .container {
 
 .box img {
   width: 100%;
+  background-attachment: fixed;
  margin: 25px;
   max-height: 500px; /* Altura máxima para as imagens */
   object-fit: cover; /* Garante que as imagens mantenham a proporção e cobrem completamente a área */
